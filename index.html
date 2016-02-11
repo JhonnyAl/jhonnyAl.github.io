@@ -1,0 +1,118 @@
+<html>
+
+<head>
+    <title>Progreso NovaScan</title>
+    <link rel="stylesheet" href="mas.css">
+    <link href='https://fonts.googleapis.com/css?family=Fredoka+One' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+    <style>
+        #logo {
+            font-family: 'Fredoka One', cursive;
+            font-size: 5em;
+            text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, .1), 0 0 5px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .3), 0 3px 5px rgba(0, 0, 0, .2), 0 5px 10px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .2), 0 20px 20px rgba(0, 0, 0, .15);
+        }
+        
+        hr.fancy-line {
+            border: 0;
+            height: 1px;
+        }
+        
+        hr.fancy-line:before {
+            top: -0.5em;
+            height: 1em;
+        }
+        
+        hr.fancy-line:after {
+            content: '';
+            height: 0.5em;
+            top: 1px;
+        }
+        
+        hr.fancy-line:before,
+        hr.fancy-line:after {
+            content: '';
+            position: absolute;
+            width: 100%;
+        }
+        
+        hr.fancy-line,
+        hr.fancy-line:before {
+            background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 75%);
+        }
+        
+        body,
+        hr.fancy-line:after {
+            background: #f4f4f4;
+        }
+        
+        img {
+            width: 10em;
+            height: 10em;
+        }
+        
+        h5 {
+            font-family: 'Fjalla One', sans-serif;
+            font-size: 2em;
+        }
+
+    </style>
+</head>
+
+<body>
+
+
+    <div class="center-align">
+        <h3 id="logo" class=" red-text text-darken-1">NovaScans</h3></div>
+
+    <hr class="fancy-line"></hr>
+    <br>
+    <br>
+    <div class="row center-align">
+
+        <div class="col s6 m3">
+            <h5 class="red-text text-darken-3">Dagashi Kashi</h5>
+            <img class=" circle responsive-img" src="http://1.bp.blogspot.com/-ihjFf_RxeQc/VfNj7BdL9JI/AAAAAAAAA9Y/7gsBKejMkMo/s1600/d.png " width="10em " height="10em ">
+            <br> Traducci&oacute;n
+            <br>
+            <progress max="100" value="190"></progress>
+            <br> Edici&oacute;n
+            <br>
+            <progress max="100" value="0"></progress>
+
+            <br>
+
+        </div>
+
+        <div class="col s6 m3">
+            <h5 class="red-text text-darken-3">Sentirental girl</h5>
+            <img class=" circle responsive-img" src="http://3.bp.blogspot.com/-_0_PrAAZBKs/VfN11xw1ZWI/AAAAAAAAA_I/yGVZElFVRY8/s1600/semn.png" width="10em " height="10em ">
+            <br> Traducci&oacute;n
+            <br>
+            <progress max="100" value="20"></progress>
+            <br> Edici&oacute;n
+            <br>
+            <progress max="100" value="0"></progress>
+
+            <br>
+
+        </div>
+
+        <div class="col s6 m3">
+            <h5 class="red-text text-darken-3">Doku dake ga inai machi</h5>
+            <img class=" circle responsive-img" src="http://1.bp.blogspot.com/-Y9lN7TdHdDE/VpFaHImft_I/AAAAAAAABZ0/YTtby7op2K0/s1600/BD.png " width="10em " height="10em ">
+            <br> Traducci&oacute;n
+            <br>
+            <progress max="100" value="100"></progress>
+            <br> Edici&oacute;n
+            <br>
+            <progress max="100" value="80"></progress>
+
+            <br>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
